@@ -1,0 +1,20 @@
+.aside-container{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+.image-container{
+    width: 100%;
+    min-height: 80px;
+    max-height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.image-container img{
+    margin-left: 25px;
+    width: 55%;
+}
+

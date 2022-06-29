@@ -1,0 +1,15 @@
+.title-item-divider{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title-divider{
+    text-transform: uppercase;
+    color: #27262E;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 20px;
+}

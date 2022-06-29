@@ -1,0 +1,16 @@
+.news-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+    padding: 0 12px;
+}
+
+.news-header-title{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #27262E;
+}

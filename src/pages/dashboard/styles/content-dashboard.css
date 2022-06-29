@@ -1,0 +1,12 @@
+.dashboard{
+    min-height: 100vh;
+    display: flex;
+}
+
+.content-dashboard{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+   
+}
+

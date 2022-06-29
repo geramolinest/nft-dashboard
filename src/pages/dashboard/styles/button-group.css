@@ -1,0 +1,16 @@
+.button-group{
+    display: flex;
+    align-items: center;
+}
+
+.button-group button{
+    border: none;
+    color: #7A797D;
+    background-color: rgba(0, 0, 0, 0);
+    height: 28px;
+    margin-right: 2px;
+}
+
+.button-group button:hover{
+    cursor: pointer;
+}

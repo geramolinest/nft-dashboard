@@ -1,0 +1,15 @@
+.header-container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-right-header{
+    display: flex;
+    width: 55%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+}

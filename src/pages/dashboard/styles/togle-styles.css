@@ -1,0 +1,18 @@
+.toggle-container{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 45px;
+    padding: 5px;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.toggle-container button{
+    height: 35px;
+    border-radius: 20px;
+    width: 47%;
+    font-family: sans-serif;
+    border: none;
+}

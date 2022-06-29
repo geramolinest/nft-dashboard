@@ -1,0 +1,154 @@
+.card-group{
+    width: 100%;
+    padding-bottom: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    width: 45%;
+    height: 320px;
+   
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 8px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-bottom: 15px;
+}
+
+.card-container:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.card-header{
+    width: 100%;
+    height: 60%;
+}
+
+.card-body{
+    width: 95%;
+    height: 34%;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.card-title{
+    display: flex;
+    flex-flow: column;
+    width: 52%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.card-title img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+  
+}
+
+
+.card-title p{
+    margin: 0;
+}
+.avatar-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    gap: 8px;
+    height: 30%;
+}
+
+.card-title-info{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-feature-settings: 'salt' on;
+    color: #27262E;
+}
+
+.avatar-card p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #747475;
+}
+
+.title-bottom-card{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #747475;
+}
+
+.card-likes{
+    height: 100%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.card-likes p{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #747475;
+}
+
+
+.card-likes span{
+    font-weight: 600;
+    color:#27262E;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.card-header img{
+    width: 100%;
+    height: 93%;
+}
+
+.banner-image{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 25px;
+    bottom: 18px;
+    color: white;
+    padding: 5px;
+    background: rgba(22, 22, 22, 0.16);
+    backdrop-filter: blur(34px);
+    border-radius: 20px;
+    width: 85px;
+    
+}
+
+.banner-image p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.banner-image svg{
+    width: 16px;
+    height: 16px;
+}
