@@ -13,3 +13,22 @@
     align-items: center;
     padding: 15px;
 }
+
+.right-responsive{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 900px){
+    .header-container .search-input{
+        display: none;
+    }
+
+    .header-container{
+        align-items: center;
+    }
+    .items-right-header{
+        width: 100%;
+        justify-content: space-between;
+    }
+}

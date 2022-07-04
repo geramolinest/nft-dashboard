@@ -1,0 +1,19 @@
+.navbar-responsive{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+    padding: 15px 15px 0 15px;
+}
+
+.navbar-responsive img{
+    height: 48px;
+    margin: 0 15px;
+}
+
+@media (min-width: 900px){
+    .navbar-responsive{
+        display: none;
+    }
+}

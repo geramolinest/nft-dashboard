@@ -10,8 +10,11 @@ const HeaderContent = () =>{
             <SearchInput/>
             <div className="items-right-header">
                 <Toggle/>
+                <div className="right-responsive">
                 <Notification/>
                 <Avatar/>
+                </div>
+                
             </div>
         </header>
     )

@@ -152,3 +152,17 @@
     width: 16px;
     height: 16px;
 }
+
+@media (max-width: 600px){
+    .card-group{
+        flex-direction: column;
+    }
+    .card-container{
+        width: 85%;
+    }
+    .img-content{
+        width: 100%;
+        height: 100%;
+        background-image: cover;
+    }
+}

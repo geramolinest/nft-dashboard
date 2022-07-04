@@ -24,3 +24,25 @@
     transform: translateY(-2px);
     cursor: pointer;
 }
+
+@media (max-width: 900px){
+    .revenue-group{
+        height: 100vh;
+        padding: 0 15px;
+    }
+
+    .card-revenue{
+        height: 250px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .revenue-group{
+        justify-content: center;
+    }
+    
+    .card-revenue{
+        width: 92%;
+    }
+}

@@ -7,8 +7,10 @@ const Card = () =>{
     return(
         <div className="card-container">
             <header className='card-header'>
-                <img src={nft}/>
-                <div className='banner-image'><AccessTime/> <p>12 : 03 : 45</p></div>
+                <div className='img-content'>
+                    <img src={nft}/>
+                    <div className='banner-image'><AccessTime/> <p>12 : 03 : 45</p></div>
+                </div>
             </header>
             <div className='card-body'>
                 <div className='card-title'>

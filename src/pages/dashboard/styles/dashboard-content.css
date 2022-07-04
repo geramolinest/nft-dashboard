@@ -41,3 +41,9 @@
 .search-item input:focus{
     outline: none;
 }
+
+@media (max-width: 900px){
+    .dashboard-container-content{
+        width: 100%;
+    }
+}
